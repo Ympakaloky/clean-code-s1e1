@@ -10,11 +10,11 @@
   display: block;
   text-align: right;
 }
-.eisenhower-matrix,
+.eisenhower-matrix
 .image {
   width: 100%;
 }
-.eisenhower-matrix, 
+.eisenhower-matrix 
 .more-info {
   font-family: fantasy, cursive;
 }
@@ -41,11 +41,11 @@
   margin: 0;
   padding: 0px;
 }
-.li-list, 
+.li-list 
 .header {
   list-style: none;
 }
-input, 
+input
 .button {
   outline: none;
 }
@@ -62,7 +62,7 @@ input,
   color: #3a3A3a;
 }
 /* Heading */
-.header,
+.header
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -122,40 +122,40 @@ input#new-task {
 .li-list > input[type="text"] {
   width: 226px;
 }
-.button.delete, 
+.button.delete 
 .image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete, 
+.button.delete
 .image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.ul-list#completed-tasks, 
+.ul-list#completed-tasks
 label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.ul-list, 
-.li-list, 
+.ul-list
+.li-list
 input[type=text] {
   display: none;
 }
 
-.ul-list, 
-.li-list.edit-mode, 
+.ul-list
+.li-list.edit-mode
 input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.ul-list, 
-.li-list.edit-mode, 
+.ul-list
+.li-list.edit-mode
 label {
   display: none;
 }
