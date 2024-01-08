@@ -10,10 +10,12 @@
   display: block;
   text-align: right;
 }
-.eisenhower-matrix .image {
+.eisenhower-matrix,
+.image {
   width: 100%;
 }
-.eisenhower-matrix .more-info {
+.eisenhower-matrix, 
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -39,10 +41,12 @@
   margin: 0;
   padding: 0px;
 }
-.li-list, .header {
+.li-list, 
+.header {
   list-style: none;
 }
-input, .button {
+input, 
+.button {
   outline: none;
 }
 .button {
@@ -115,34 +119,43 @@ input#new-task {
   font-size: 18px;
   width: 226px;
 }
-.li-list >    input[type="text"] {
+.li-list > input[type="text"] {
   width: 226px;
 }
-.button.delete .image {
+.button.delete, 
+.image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete .image:hover {
+.button.delete, 
+.image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.ul-list#completed-tasks label {
+.ul-list#completed-tasks, 
+label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.ul-list .li-list input[type=text] {
+.ul-list, 
+.li-list, 
+input[type=text] {
   display: none;
 }
 
-.ul-list .li-list.edit-mode input[type=text] {
+.ul-list, 
+.li-list.edit-mode, 
+input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.ul-list .li-list.edit-mode label {
+.ul-list, 
+.li-list.edit-mode, 
+label {
   display: none;
 }
